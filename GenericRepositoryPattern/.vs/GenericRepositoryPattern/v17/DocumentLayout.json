@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\GenericRepositoryPattern\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{026C6541-7F7A-4C05-B94A-703029FB7A69}|GenericRepositoryPattern.csproj|c:\\projects\\genericrepositorypattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{026C6541-7F7A-4C05-B94A-703029FB7A69}|GenericRepositoryPattern.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{026C6541-7F7A-4C05-B94A-703029FB7A69}|GenericRepositoryPattern.csproj|c:\\projects\\genericrepositorypattern\\entity\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{026C6541-7F7A-4C05-B94A-703029FB7A69}|GenericRepositoryPattern.csproj|solutionrelative:entity\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{026C6541-7F7A-4C05-B94A-703029FB7A69}|GenericRepositoryPattern.csproj|c:\\projects\\genericrepositorypattern\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{026C6541-7F7A-4C05-B94A-703029FB7A69}|GenericRepositoryPattern.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{026C6541-7F7A-4C05-B94A-703029FB7A69}|GenericRepositoryPattern.csproj|c:\\projects\\genericrepositorypattern\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{026C6541-7F7A-4C05-B94A-703029FB7A69}|GenericRepositoryPattern.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 50,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Projects\\GenericRepositoryPattern\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Projects\\GenericRepositoryPattern\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-11T10:11:53.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Projects\\GenericRepositoryPattern\\Entity\\Category.cs",
+              "RelativeDocumentMoniker": "Entity\\Category.cs",
+              "ToolTip": "C:\\Projects\\GenericRepositoryPattern\\Entity\\Category.cs",
+              "RelativeToolTip": "Entity\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T10:10:52.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\GenericRepositoryPattern\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Projects\\GenericRepositoryPattern\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T10:09:12.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Projects\\GenericRepositoryPattern\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Projects\\GenericRepositoryPattern\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T10:07:19.023Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 382,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

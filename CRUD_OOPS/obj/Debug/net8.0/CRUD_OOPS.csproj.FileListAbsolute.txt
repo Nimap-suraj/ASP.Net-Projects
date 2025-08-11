@@ -1,0 +1,14 @@
+C:\Projects\CRUD_OOPS\bin\Debug\net8.0\CRUD_OOPS.exe
+C:\Projects\CRUD_OOPS\bin\Debug\net8.0\CRUD_OOPS.deps.json
+C:\Projects\CRUD_OOPS\bin\Debug\net8.0\CRUD_OOPS.runtimeconfig.json
+C:\Projects\CRUD_OOPS\bin\Debug\net8.0\CRUD_OOPS.dll
+C:\Projects\CRUD_OOPS\bin\Debug\net8.0\CRUD_OOPS.pdb
+C:\Projects\CRUD_OOPS\obj\Debug\net8.0\CRUD_OOPS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\CRUD_OOPS\obj\Debug\net8.0\CRUD_OOPS.AssemblyInfoInputs.cache
+C:\Projects\CRUD_OOPS\obj\Debug\net8.0\CRUD_OOPS.AssemblyInfo.cs
+C:\Projects\CRUD_OOPS\obj\Debug\net8.0\CRUD_OOPS.csproj.CoreCompileInputs.cache
+C:\Projects\CRUD_OOPS\obj\Debug\net8.0\CRUD_OOPS.dll
+C:\Projects\CRUD_OOPS\obj\Debug\net8.0\refint\CRUD_OOPS.dll
+C:\Projects\CRUD_OOPS\obj\Debug\net8.0\CRUD_OOPS.pdb
+C:\Projects\CRUD_OOPS\obj\Debug\net8.0\CRUD_OOPS.genruntimeconfig.cache
+C:\Projects\CRUD_OOPS\obj\Debug\net8.0\ref\CRUD_OOPS.dll

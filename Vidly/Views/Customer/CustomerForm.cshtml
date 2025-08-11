@@ -1,0 +1,52 @@
+﻿@using Vidly.ViewModel
+@* @model Customer *@
+@model CustomerFormViewModel
+@{
+}
+
+<h2>New Customer</h2>
+
+@using (Html.BeginForm("Save", "Customer"))
+{
+	@Html.ValidationSummary(true, "Please Fix the following summary!!")
+	;
+	<div class="form-group mb-2">
+		@Html.LabelFor(c => c.Customer.Name)
+		@Html.TextBoxFor(c => c.Customer.Name, new { @class = "form-control" })
+		@Html.ValidationMessageFor(c => c.Customer.Name)
+	</div>
+
+	//model binding.
+	<div class="form-group">
+		@* @Html.LabelFor(c => c.memberShipTypes) *@
+		 <label class="mb-2">Membership Types</label> 
+		@Html.DropDownListFor(c => c.Customer.MemberShipTypeId,
+				new SelectList
+				(
+				Model.memberShipTypes,
+				"Id", "Name"),
+				"Select Membership",
+				new
+				{
+					@class = "form-control"
+				})
+		@Html.ValidationMessageFor(c => c.Customer.MemberShipTypeId)
+	</div>
+	<div class="form-group mb-2">
+		@* @Html.LabelFor(c => c.Birthdate) *@
+		<label for="Birthdate">Date of Birth</label>
+		@Html.TextBoxFor(c => c.Customer.Birthdate, "{0:yyyy-MM-dd}", new { @class = "form-control" })
+		@Html.ValidationMessageFor(c => c.Customer.Birthdate)
+
+	</div>
+
+	<div class="checkbox m-2">
+		<label>
+			@Html.CheckBoxFor(c => c.Customer.IsSubscribed)  Subscribed
+		</label>
+	</div>
+	@Html.HiddenFor(m => m.Customer.Id)
+	@Html.AntiForgeryToken()
+	;
+	<button class="btn btn-primary mt-4 m-auto">Save</button>
+}

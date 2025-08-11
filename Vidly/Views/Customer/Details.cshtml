@@ -1,0 +1,11 @@
+﻿@model Customer
+
+
+<h2>Customer Details</h2>
+<p><strong>Name:</strong> @Model.Name</p>
+@if(Model.Birthdate.HasValue)
+{
+
+<p><strong>BirthDate:</strong> @(Model.Birthdate?.ToString("yyyy/MM/dd"))</p>
+}
+

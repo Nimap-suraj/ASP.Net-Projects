@@ -1,0 +1,15 @@
+C:\Projects\LogicalQuestion\bin\Debug\net8.0\LogicalQuestion.exe
+C:\Projects\LogicalQuestion\bin\Debug\net8.0\LogicalQuestion.dll
+C:\Projects\LogicalQuestion\obj\Debug\net8.0\LogicalQuestion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\LogicalQuestion\obj\Debug\net8.0\LogicalQuestion.AssemblyInfoInputs.cache
+C:\Projects\LogicalQuestion\obj\Debug\net8.0\LogicalQuestion.AssemblyInfo.cs
+C:\Projects\LogicalQuestion\obj\Debug\net8.0\LogicalQuestion.csproj.CoreCompileInputs.cache
+C:\Projects\LogicalQuestion\obj\Debug\net8.0\LogicalQuestion.sourcelink.json
+C:\Projects\LogicalQuestion\obj\Debug\net8.0\LogicalQuestion.dll
+C:\Projects\LogicalQuestion\obj\Debug\net8.0\refint\LogicalQuestion.dll
+C:\Projects\LogicalQuestion\obj\Debug\net8.0\LogicalQuestion.pdb
+C:\Projects\LogicalQuestion\bin\Debug\net8.0\LogicalQuestion.deps.json
+C:\Projects\LogicalQuestion\bin\Debug\net8.0\LogicalQuestion.runtimeconfig.json
+C:\Projects\LogicalQuestion\bin\Debug\net8.0\LogicalQuestion.pdb
+C:\Projects\LogicalQuestion\obj\Debug\net8.0\LogicalQuestion.genruntimeconfig.cache
+C:\Projects\LogicalQuestion\obj\Debug\net8.0\ref\LogicalQuestion.dll
