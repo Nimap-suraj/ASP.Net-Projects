@@ -8,11 +8,13 @@ namespace GenericRepositoryPattern.Repositories.Implementation
     {
         private readonly AppDbContext _context;
         public ICategoryRepository Categories { get; }
+        public IProductRepository products { get; }
 
-        public UnitOfWork(AppDbContext context, ICategoryRepository categoryRepository)
+        public UnitOfWork(AppDbContext context, ICategoryRepository categoryRepository, IProductRepository product)
         {
             _context = context;
             Categories = categoryRepository;
+            products = product;
         }
         public Task<int> SaveChangesAsync()
         {

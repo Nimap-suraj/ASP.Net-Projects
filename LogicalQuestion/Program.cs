@@ -1,6 +1,7 @@
 ﻿using Microsoft.VisualBasic;
 using System;
 using System.Diagnostics;
+using System.Runtime.InteropServices;
 using System.Text;
 internal class Program
 {           
@@ -20,8 +21,27 @@ internal class Program
         //string input = "abc";
         //string output = "";
         //PrintSubSet(output, input);
+        //PrintNumberUsingRecursionFrom1ToN(5);
+        PrintNumberFromNto1(5);
     }
-
+    public static void PrintNumberFromNto1(int n)
+    {
+        if(n == 0)
+        {
+            return;
+        }
+        Console.WriteLine(n);
+        PrintNumberFromNto1(n - 1);
+    }
+    public static void PrintNumberUsingRecursionFrom1ToN(int n)
+    {
+        if(n == 0)
+        {
+            return;
+        }
+        PrintNumberUsingRecursionFrom1ToN(n - 1);
+        Console.WriteLine(n);
+    }
     private static void PrefixMaxString()
     {
         string[] strs = { "flower", "flow", "fl" };

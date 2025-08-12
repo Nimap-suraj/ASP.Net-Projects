@@ -17,11 +17,6 @@ namespace GenericRepositoryPattern.Repositories.Implementation
             _dbSet = _context.Set<T>();
         }
 
-        //public GenericRepository(AppDbContext context)
-        //{
-        //    _context = context;
-        //}
-
         public async Task AddAsync(T entity) =>
              await _dbSet.AddAsync(entity);
 
