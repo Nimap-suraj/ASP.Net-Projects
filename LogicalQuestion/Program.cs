@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualBasic;
 using System;
+using System.Data;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -22,7 +23,81 @@ internal class Program
         //string output = "";
         //PrintSubSet(output, input);
         //PrintNumberUsingRecursionFrom1ToN(5);
-        PrintNumberFromNto1(5);
+        //PrintNumberFromNto1(5);
+        //string input = "aab";
+        //string output = "";
+        ////SolveSubSet(input, output);
+        //var result = new HashSet<string>();
+        //SolveSubSetUnique(input,output,result);
+        //foreach (string s in result)
+        //{
+        //    Console.WriteLine(s);
+        //}
+        //string input = "ABC";
+        //string output = "";
+
+        //output = output + input[0];
+        //input = input.Substring(1);
+        //Console.WriteLine(output);
+        //Console.WriteLine(input);
+        //PermutationWithSpace(output, input);
+
+        string input = "ab";
+        
+        string output = "";
+        PermutationWithCaseChange(output, input);
+    }
+    public static void PermutationWithCaseChange(string output, string input)
+    {
+        if(input.Length == 0)
+        {
+            Console.WriteLine(output);
+            return;
+        }
+        char c  = input[0];
+        var reducedInput = input.Substring(1);
+        // small case
+        PermutationWithCaseChange(output+c,reducedInput);
+
+        PermutationWithCaseChange(output + c.ToString().ToUpper(), reducedInput);
+      
+    }
+    //public static void PermutationWithSpace(string output, string Input)
+    //{
+    //    if(input.Length == 0)
+    //    {
+    //        Console.WriteLine(output);
+    //        return;
+    //    }
+    //    char c = input[0];
+    //    var reducedInput = input.Substring(1);
+    //    PermutationWithSpace(output+"_"+c,reducedInput);
+    //    PermutationWithSpace(output+c,reducedInput);
+    //}
+    // print powerset // subset // sub Sequeneces all are same
+    public static void SolveSubSetUnique(string input, string output,HashSet<string> res)
+    {
+        if (input.Length == 0)
+        {
+            res.Add(output);
+            return;
+        }
+        char ch = input[0];
+        var reducedInput = input.Substring(1);
+        SolveSubSetUnique(reducedInput, output,res);
+        SolveSubSetUnique(reducedInput, output + ch,res);
+    }
+    public static void SolveSubSet(string input, string output)
+    {
+        if(input.Length == 0)
+        {
+            Console.WriteLine(output);
+            return;
+        }
+        char ch = input[0];
+        var reducedInput = input.Substring(1);
+        SolveSubSet(reducedInput, output);
+        SolveSubSet(reducedInput, output + ch);
     }
     public static void PrintNumberFromNto1(int n)
     {
