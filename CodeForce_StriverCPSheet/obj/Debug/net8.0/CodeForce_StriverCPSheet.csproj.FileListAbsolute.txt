@@ -1,0 +1,15 @@
+C:\Projects\CodeForce_StriverCPSheet\bin\Debug\net8.0\CodeForce_StriverCPSheet.exe
+C:\Projects\CodeForce_StriverCPSheet\bin\Debug\net8.0\CodeForce_StriverCPSheet.deps.json
+C:\Projects\CodeForce_StriverCPSheet\bin\Debug\net8.0\CodeForce_StriverCPSheet.runtimeconfig.json
+C:\Projects\CodeForce_StriverCPSheet\bin\Debug\net8.0\CodeForce_StriverCPSheet.dll
+C:\Projects\CodeForce_StriverCPSheet\bin\Debug\net8.0\CodeForce_StriverCPSheet.pdb
+C:\Projects\CodeForce_StriverCPSheet\obj\Debug\net8.0\CodeForce_StriverCPSheet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\CodeForce_StriverCPSheet\obj\Debug\net8.0\CodeForce_StriverCPSheet.AssemblyInfoInputs.cache
+C:\Projects\CodeForce_StriverCPSheet\obj\Debug\net8.0\CodeForce_StriverCPSheet.AssemblyInfo.cs
+C:\Projects\CodeForce_StriverCPSheet\obj\Debug\net8.0\CodeForce_StriverCPSheet.csproj.CoreCompileInputs.cache
+C:\Projects\CodeForce_StriverCPSheet\obj\Debug\net8.0\CodeForce_StriverCPSheet.sourcelink.json
+C:\Projects\CodeForce_StriverCPSheet\obj\Debug\net8.0\CodeForce_StriverCPSheet.dll
+C:\Projects\CodeForce_StriverCPSheet\obj\Debug\net8.0\refint\CodeForce_StriverCPSheet.dll
+C:\Projects\CodeForce_StriverCPSheet\obj\Debug\net8.0\CodeForce_StriverCPSheet.pdb
+C:\Projects\CodeForce_StriverCPSheet\obj\Debug\net8.0\CodeForce_StriverCPSheet.genruntimeconfig.cache
+C:\Projects\CodeForce_StriverCPSheet\obj\Debug\net8.0\ref\CodeForce_StriverCPSheet.dll

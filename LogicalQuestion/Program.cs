@@ -42,10 +42,30 @@ internal class Program
         //Console.WriteLine(input);
         //PermutationWithSpace(output, input);
 
-        string input = "ab";
-        
-        string output = "";
-        PermutationWithCaseChange(output, input);
+        //string input = "ab";
+
+        //string output = "";
+        //PermutationWithCaseChange(output, input);
+
+        //string str = "Hello From C#";
+
+        //var word = ReverseWord(str);
+        //Console.WriteLine(word);
+
+        int n = 6;
+    }
+    public static void Ncr()
+    {
+
+    }
+    public static string ReverseWord(string str)
+    {
+        string ans = "";
+        string[] res = str.Split(" ");
+        Array.Reverse(res);
+        var newRes = string.Join(" ", res);
+
+        return newRes;
     }
     public static void PermutationWithCaseChange(string output, string input)
     {

@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilesSync", "FilesSync.csproj", "{39A0B6C5-44E1-41C4-B8B9-75C2C5A8A5E1}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "FileSynchronization", "..\FileSynchronization\FileSynchronization.vdproj", "{0DF1E0CB-A67C-CD50-AA63-D081D0012332}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39A0B6C5-44E1-41C4-B8B9-75C2C5A8A5E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39A0B6C5-44E1-41C4-B8B9-75C2C5A8A5E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39A0B6C5-44E1-41C4-B8B9-75C2C5A8A5E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39A0B6C5-44E1-41C4-B8B9-75C2C5A8A5E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DF1E0CB-A67C-CD50-AA63-D081D0012332}.Debug|Any CPU.ActiveCfg = Debug
+		{0DF1E0CB-A67C-CD50-AA63-D081D0012332}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {149EA526-D69F-4E25-8FED-6829480A7C1B}
+	EndGlobalSection
+EndGlobal

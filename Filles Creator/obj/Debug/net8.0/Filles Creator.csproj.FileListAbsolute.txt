@@ -1,0 +1,27 @@
+C:\Projects\Filles Creator\obj\Debug\net8.0\Filles Creator.csproj.AssemblyReference.cache
+C:\Projects\Filles Creator\obj\Debug\net8.0\Filles Creator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Filles Creator\obj\Debug\net8.0\Filles Creator.AssemblyInfoInputs.cache
+C:\Projects\Filles Creator\obj\Debug\net8.0\Filles Creator.AssemblyInfo.cs
+C:\Projects\Filles Creator\obj\Debug\net8.0\Filles Creator.csproj.CoreCompileInputs.cache
+C:\Projects\Filles Creator\obj\Debug\net8.0\Filles Creator.sourcelink.json
+C:\Projects\Filles Creator\bin\Debug\net8.0\Filles Creator.exe
+C:\Projects\Filles Creator\bin\Debug\net8.0\Filles Creator.deps.json
+C:\Projects\Filles Creator\bin\Debug\net8.0\Filles Creator.runtimeconfig.json
+C:\Projects\Filles Creator\bin\Debug\net8.0\Filles Creator.dll
+C:\Projects\Filles Creator\bin\Debug\net8.0\Filles Creator.pdb
+C:\Projects\Filles Creator\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Projects\Filles Creator\bin\Debug\net8.0\DocumentFormat.OpenXml.dll
+C:\Projects\Filles Creator\bin\Debug\net8.0\DocumentFormat.OpenXml.Framework.dll
+C:\Projects\Filles Creator\bin\Debug\net8.0\iTextSharp.LGPLv2.Core.dll
+C:\Projects\Filles Creator\bin\Debug\net8.0\SkiaSharp.dll
+C:\Projects\Filles Creator\bin\Debug\net8.0\System.IO.Packaging.dll
+C:\Projects\Filles Creator\bin\Debug\net8.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Projects\Filles Creator\bin\Debug\net8.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Projects\Filles Creator\bin\Debug\net8.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Projects\Filles Creator\bin\Debug\net8.0\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Projects\Filles Creator\obj\Debug\net8.0\Filles C.4D3D68F5.Up2Date
+C:\Projects\Filles Creator\obj\Debug\net8.0\Filles Creator.dll
+C:\Projects\Filles Creator\obj\Debug\net8.0\refint\Filles Creator.dll
+C:\Projects\Filles Creator\obj\Debug\net8.0\Filles Creator.pdb
+C:\Projects\Filles Creator\obj\Debug\net8.0\Filles Creator.genruntimeconfig.cache
+C:\Projects\Filles Creator\obj\Debug\net8.0\ref\Filles Creator.dll

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CodeForce_StriverCPSheet/1.0.0": {
+        "runtime": {
+          "CodeForce_StriverCPSheet.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CodeForce_StriverCPSheet/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

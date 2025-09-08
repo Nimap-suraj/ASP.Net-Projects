@@ -1,6 +1,4 @@
-﻿
-
-using System.Text.Json;
+﻿using System.Text.Json;
 using System.Data;
 using System.Net.NetworkInformation;
 using System.Text;
@@ -287,7 +285,7 @@ namespace RobustAccessDbSync
 
                 if (!string.IsNullOrEmpty(rememberedClientPath))
                 {
-                    string iniPath = Path.Combine(rememberedClientPath, "config.ini");
+                    string iniPath = Path.Combine(rememberedClientPath, "fileConfig.ini");
                     if (File.Exists(iniPath))
                     {
                         data = parser.ReadFile(iniPath);
@@ -336,7 +334,7 @@ namespace RobustAccessDbSync
                         data["folder"][$"Path{i + 1}"] = Client_Folders[i];
                     }
 
-                    string iniPath = Path.Combine(clientPath, "config.ini");
+                    string iniPath = Path.Combine(clientPath, "fileConfig.ini");
                     parser.WriteFile(iniPath, data);
                 }
 
@@ -586,10 +584,12 @@ namespace RobustAccessDbSync
         static void SyncFilesBothDirections()
         {
             try
+            
+            
             {
                 if (_syncRunning)
                 {
-                    string logFilePath = Path.Combine(clientPath, "Configlog.ini");
+                    string logFilePath = Path.Combine(clientPath, "FileConfiglog.ini");
                     string serverFolder = serverPath;
                     var excludeList = new List<string>();
 
@@ -660,6 +660,8 @@ namespace RobustAccessDbSync
                     }
                     else
                     {
+                        PrintWarning("Connection lost - ");
+
                         if (_lastOnlineTime != DateTime.MinValue)
                         {
                             PrintWarning("Connection lost - entering offline mode");
