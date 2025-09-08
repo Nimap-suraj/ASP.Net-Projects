@@ -141,16 +141,53 @@ namespace RobustAccessDbSync
             }
         }
 
+        //static void GetClientPathCredentials()
+        //{
+        //    Client_Folders.Clear();
+        //    int i = 1;
+        //    while (true)
+        //    {
+        //        Console.Write($"Enter client folder path #{i} (leave blank to stop): ");
+        //        string path = Console.ReadLine();
+        //        if (string.IsNullOrWhiteSpace(path))
+        //            break;
+
+        //        if (Directory.Exists(path))
+        //        {
+        //            Client_Folders.Add(path);
+        //            i++;
+        //        }
+        //        else
+        //        {
+        //            Console.WriteLine("Invalid folder. Please try again.");
+        //        }
+        //    }
+
+        //    if (Client_Folders.Count == 0)
+        //        Console.WriteLine("Warning: No folders entered for sync.");
+        //}
         static void GetClientPathCredentials()
         {
             Client_Folders.Clear();
             int i = 1;
+
             while (true)
             {
-                Console.Write($"Enter client folder path #{i} (leave blank to stop): ");
+                Console.Write($"Enter client folder path #{i} (at least one required): ");
                 string path = Console.ReadLine();
+
                 if (string.IsNullOrWhiteSpace(path))
-                    break;
+                {
+                    if (Client_Folders.Count == 0)
+                    {
+                        Console.WriteLine("You must enter at least one folder!");
+                        continue; // force user to enter at least one
+                    }
+                    else
+                    {
+                        break; // user can stop after entering at least one
+                    }
+                }
 
                 if (Directory.Exists(path))
                 {
@@ -162,9 +199,6 @@ namespace RobustAccessDbSync
                     Console.WriteLine("Invalid folder. Please try again.");
                 }
             }
-
-            if (Client_Folders.Count == 0)
-                Console.WriteLine("Warning: No folders entered for sync.");
         }
 
         // Fast directory enumeration with progress
