@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Folder_Synchronization")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9020fb36af856e18d84f03a0ba4672837067b9c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5bdb0e5a791b201babddb63334866ddfa11cb039")]
 [assembly: System.Reflection.AssemblyProductAttribute("Folder_Synchronization")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Folder_Synchronization")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
